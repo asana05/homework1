@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'robotoRegular';
+  src: url(../fonts/Roboto-Regular.ttf); 
+}
+
 nav{
 padding-top: 20px;
 padding-bottom: 20px;
@@ -21,4 +26,91 @@ display: inline-block;
 nav .conteiner a svg{
 	width: 100px;
 	height: 55px;
+	vertical-align: middle;
 }
+
+.topMenu{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.topMenu ul{
+	text-transform: uppercase;
+	margin-left: 100px;
+	color: #3d58a6;
+	font-size: 16px;
+}
+
+.topMenu ul li{
+
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.topMenu ul li a{
+text-decoration: none;
+font-family: "robotoRegular";
+}
+
+
+.socialIcon{
+	font-size: 0px;
+	/*background: red;*/
+	width: 346px;
+	height: 30px;
+   vertical-align: middle;
+   display: inline-block;
+   margin-left: 281px;
+}
+
+.socialIcon div{
+width: 85px;
+height: 30px;
+display: inline-block;
+vertical-align: middle;
+font-size: 0px;
+}
+
+.socialIcon .line{
+width: 2px;
+height: 30px;
+background-color: #3D58A6;
+display: inline-block;
+}
+
+.google svg{
+ height: 30px;
+fill: #3D58A6;
+}
+
+.facebook svg{
+ height: 30px;
+fill: #3D58A6;
+margin-left: 35px;
+}
+.youtube svg{
+ height: 30px;
+fill: #3D58A6;
+margin-left: 30px
+}
+.search1 svg{
+ height: 40px;
+ margin-left: 30px;
+
+}
+
+
+
+header {
+background: #E6E6E6;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
+header .conteiner img {
+	width: 1180px;
+}
+
