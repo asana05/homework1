@@ -1,24 +1,30 @@
 @font-face {
-  font-family: 'robotoRegular';
-  src: url(../fonts/Roboto-Regular.ttf); 
+	font-family: 'robotoRegular';
+	src: url(../fonts/Roboto-Regular.ttf); 
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
 }
 
 nav{
-padding-top: 20px;
-padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 }
 
-.conteiner{
-margin-right: auto;
-margin-left: auto;
-width: 1180px;
+nav .conteiner{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1180px;
 
 }
 
 
 .logo_link{
-display: inline-block;
+	display: inline-block;
 
 }
 
@@ -50,8 +56,8 @@ nav .conteiner a svg{
 }
 
 .topMenu ul li a{
-text-decoration: none;
-font-family: "robotoRegular";
+	text-decoration: none;
+	font-family: "robotoRegular";
 }
 
 
@@ -60,57 +66,122 @@ font-family: "robotoRegular";
 	/*background: red;*/
 	width: 346px;
 	height: 30px;
-   vertical-align: middle;
-   display: inline-block;
-   margin-left: 281px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 281px;
 }
 
 .socialIcon div{
-width: 85px;
-height: 30px;
-display: inline-block;
-vertical-align: middle;
-font-size: 0px;
+	width: 85px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0px;
 }
 
 .socialIcon .line{
-width: 2px;
-height: 30px;
-background-color: #3D58A6;
-display: inline-block;
+	width: 2px;
+	height: 30px;
+	background-color: #3D58A6;
+	display: inline-block;
 }
 
 .google svg{
- height: 30px;
-fill: #3D58A6;
+	height: 30px;
+	fill: #3D58A6;
 }
 
 .facebook svg{
- height: 30px;
-fill: #3D58A6;
-margin-left: 35px;
+	height: 30px;
+	fill: #3D58A6;
+	margin-left: 35px;
 }
 .youtube svg{
- height: 30px;
-fill: #3D58A6;
-margin-left: 30px
+	height: 30px;
+	fill: #3D58A6;
+	margin-left: 30px
 }
 .search1 svg{
- height: 40px;
- margin-left: 30px;
+	height: 40px;
+	margin-left: 30px;
 
 }
 
 
 
-header {
-background: #E6E6E6;
-padding-top: 30px;
-padding-bottom: 30px;
+.banner {
+	background: #E6E6E6;
+	padding-top: 30px;
+	padding-bottom: 30px;
 
 }
 
-header .conteiner img {
+.banner .conteiner{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1180px;
+
+}
+
+.banner .conteiner img {
+	position: relative;
 	width: 1180px;
 }
+.banner  .html-svg{
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+.banner  .html-svg img{
+	width: 100px;
+}
 
+.banner-text{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	text-transform: uppercase;
+	font-size: 21px;
+    text-decoration: none;
+	font-family: "robotoRegular";
+	color: #E6E6E6;
+}
+.blue-box{
+	background-color: #363E97;
+    padding-bottom: 90px;
+}
+.blue-box .conteiner{
+
+	width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue-box .conteiner h1{
+	padding: 30px 0;
+	font-family: "robotoRegular";
+	color: #E6E6E6;
+	text-transform: uppercase;
+}
+.blue-box .conteiner h1 a{
+	margin-left: 10px;
+	font-family: "robotoRegular";
+	color: #E6E6E6;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+.part-video{
+	width: 570px;
+    height: 320px;
+    background-color: #F2F2F2;
+}
+.left{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
